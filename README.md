@@ -1,39 +1,39 @@
-# 🧮 Calculadora Científica en Python
+# 🧮 Scientific Calculator in Python
 
-Una calculadora versátil desarrollada en Python que ofrece tanto funciones básicas como científicas, con interfaz de terminal y gráfica. Además, guarda el historial de operaciones realizadas por el usuario.
+A versatile calculator developed in Python offering both basic and scientific functions, with a terminal and graphical interface. It also stores a history of operations performed by the user.
 
 ---
 
-## ✨ Características
+## ✨ Features
 
-✅ **Operaciones Básicas**  
-- Suma  
-- Resta  
-- Multiplicación  
-- División  
+✅ **Basic Operations**  
+- Addition  
+- Subtraction  
+- Multiplication  
+- Division  
 
-🧠 **Funciones Científicas**  
-- Raíz cuadrada  
-- Seno y coseno (en grados)  
-- Logaritmo natural  
+🧠 **Scientific Functions**  
+- Square root  
+- Sine and cosine (in degrees)  
+- Natural logarithm  
 
 📝 **Extras**  
-- Guardado de historial en `historial.txt`  
-- Conversión de resultados a palabras (del 0 al 10)  
-- Interfaz gráfica opcional con `tkinter`
+- Saves operation history in `historial.txt`  
+- Converts results to words (from 0 to 10)  
+- Optional graphical interface using `tkinter`
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 Project Structure
 
 ```
 calculadora-cientifica/
 ├── calculadora/
-│   ├── main.py          # Versión terminal
-│   ├── gui.py           # Versión gráfica
-│   ├── cientifica.py    # Funciones científicas
-│   ├── saludo.py        # Mensajes de bienvenida/despedida
-│   ├── historial.py     # Gestión de historial
+│   ├── main.py          # Terminal version
+│   ├── gui.py           # Graphical version
+│   ├── cientifica.py    # Scientific functions
+│   ├── saludo.py        # Welcome/farewell messages
+│   ├── historial.py     # History management
 │   └── __init__.py
 ├── tests/
 │   └── __init__.py
@@ -45,51 +45,51 @@ calculadora-cientifica/
 
 ---
 
-## 🛠️ Requisitos
+## 🛠️ Requirements
 
-- Python **3.8 o superior**
+- Python **3.8 or higher**
 
 ---
 
-## 🚀 Instalación y Uso
+## 🚀 Installation and Usage
 
-1. **Clona el repositorio**:
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/tu-usuario/calculadora-cientifica.git
+   git clone https://github.com/JM90AR/calculadora-cientifica.git
    cd calculadora-cientifica
    ```
 
-2. **Instala las dependencias (si las hay)**:
+2. **Install dependencies (if any)**:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Ejecuta la versión en terminal**:
+3. **Run the terminal version**:
    ```bash
    python calculadora/main.py
    ```
 
-4. **O ejecuta la versión gráfica (requiere tkinter)**:
+4. **Or run the graphical version (requires tkinter)**:
    ```bash
    python calculadora/gui.py
    ```
 
 ---
 
-## 🧪 Pruebas
+## 🧪 Testing
 
-> (En construcción) Se incluirán pruebas unitarias en el módulo `tests/`.
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
+> (In progress) Unit tests will be included in the `tests/` module.
 
 ---
 
-## 💡 Autor
+## 📄 License
 
-Desarrollado por **Miguel Alba** — ¡Con enfoque en la claridad, aprendizaje y utilidad!
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
-¿Tienes sugerencias o quieres contribuir? ¡Pull requests y feedbacks son bienvenidos! 🚀
+---
+
+## 💡 Author
+
+Developed by **Miguel Alba** — Focused on clarity, learning, and usefulness!
+
+Feel free to contribute or suggest improvements — pull requests are welcome! 🚀
